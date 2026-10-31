@@ -29,7 +29,7 @@ Checked on 2026-10-31 by cloning each repository and running or reading it. Wher
 ## Private (summarized, source not public)
 
 ### Supreme Core 1.2.0 + MCP server + Nonprofit Desk 0.2.0 — Tested release candidate
-- 60 automated tests (engine, trust regressions, MCP server, skills, product library, release packaging, Voice DNA) and 7 web-app tests pass; production build passes.
+- 61 automated tests (engine, trust regressions, MCP server, skills, product library, release packaging, Voice DNA) and 7 web-app tests pass; production build passes.
 - Tested on Node 20.14, 20.20, 22, 24 and 25; skill scripts on Python 3.9.6 and 3.14.1.
 - A release archive installs cleanly into an empty folder and passes its tests there.
 - Local-first: no user accounts, tenant authorization, encryption at rest, billing or remote MCP.

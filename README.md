@@ -27,8 +27,8 @@ More in [docs/09_customer_problems.md](docs/09_customer_problems.md).
 
 | Work | Where | Label | Evidence checked on 2026-10-31 |
 | --- | --- | --- | --- |
-| Supreme Core engine, MCP server, Nonprofit Desk app | Private repository | Tested release candidate (local-first) | 60 engine/skill/release tests and 7 app tests pass; production build passes; clean install from the release archive passes. No hosted accounts, billing or encryption |
-| Voice DNA Early Access (first product) | Private repository; summary in [docs/13_voice_dna.md](docs/13_voice_dna.md) | Tested release candidate | Deterministic tests in two languages and a packaged clean-install rehearsal pass. Host test in Claude Code not yet run; no customer sessions |
+| Supreme Core engine, MCP server, Nonprofit Desk app | Private repository | Tested release candidate (local-first) | 61 engine/skill/release tests and 7 app tests pass; production build passes; clean install from the release archive passes. No hosted accounts, billing or encryption |
+| Voice DNA Early Access (first product) | Private repository; summary in [docs/13_voice_dna.md](docs/13_voice_dna.md) | Tested release candidate | Deterministic tests in two languages and a packaged clean-install rehearsal pass; one Claude Code host test run passed 13/13 checks. No customer sessions |
 | [companion-core-python](https://github.com/divine51353-ops/companion-core-python) | Public | Prototype | Installs; demo runs; 2 tests pass; several modules are placeholders |
 | [universal-shell-html](https://github.com/divine51353-ops/universal-shell-html) | Public | Prototype | Single-file, config-driven HTML shell; demo mode only verified by reading; live (BYOK) mode not verified |
 | [book-forge-workflow](https://github.com/divine51353-ops/book-forge-workflow) | Public | Workflow design | Six agent prompts and seven JSON schemas (all valid JSON); no runnable code |

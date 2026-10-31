@@ -27,7 +27,8 @@
 ## Evidence so far
 - Deterministic tests in JavaScript and Python agree on every rule above, including malformed inputs, duplicate samples, invalid phrase patterns, changes after acceptance, and export/resume in a fresh process.
 - The customer package installs from its archive into an empty folder, and the full journey runs on a synthetic example.
-- **Not yet:** a host test inside a Claude product (prepared, not run), and any customer session. A two-person pilot packet is ready.
+- One host test in Claude Code (three scripted turns, synthetic example) passed all 13 automated checks. It also showed the limit those checks share: the draft added a small unconfirmed phrase that only a human review would catch.
+- **Not yet:** a test of the Claude.ai or desktop upload path, and any customer session. A two-person pilot packet is ready.
 
 ## Price
 $49 is a proposed early-access price to test. No billing is built.
