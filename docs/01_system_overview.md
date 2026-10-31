@@ -14,7 +14,7 @@ Most AI products focus on prompt quality or model quality. This portfolio focuse
 - continuity preservation
 - validation before seal
 - product-family consistency
-- deployable operator surfaces
+- operator surfaces designed for deployment (see 12_evidence_and_maturity.md for what has actually run)
 
 ## Architecture layers
 
